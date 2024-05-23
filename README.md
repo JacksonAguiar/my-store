@@ -107,7 +107,8 @@ Em resumo, a escolha por Domain-Driven Design (DDD) foi feita para garantir um d
 
 1. **Clone o repositório**:
    ```sh
-   git clone <link-do-repositorio   cd my-store
+   git clone https://github.com/JacksonAguiar/my-store 
+   cd my-store
    ```
 2. **Configuração do Backend**:
    - **Instale as dependências**:
@@ -117,8 +118,9 @@ Em resumo, a escolha por Domain-Driven Design (DDD) foi feita para garantir um d
      ```
    - **Configuração das variáveis de ambiente**:
      Crie um arquivo `.env` na raiz do diretório `backend` com as seguintes variáveis:
-     ````env
-     DATABASE_URL=<sua-string-de-conexao-do-mongodb     JWT_SECRET=<sua-chave-secreta-jwt     ```
+     ````sh
+     DATABASE_URL=<sua-string-de-conexao-do-mongodb>
+     JWT_SECRET=<sua-chave-secreta-jwt>
      ````
    - **Execução**:
      ````sh
@@ -133,7 +135,7 @@ Em resumo, a escolha por Domain-Driven Design (DDD) foi feita para garantir um d
    - **Configuração das variáveis de ambiente**:
      Crie um arquivo `.env` na raiz do diretório `frontend` com as seguintes variáveis:
      ```env
-     REACT_APP_BACKEND_URL=http://localhost:4000/api
+     REACT_APP_BACKEND_URL=http://localhost:4000/
      ```
     - **Execução**:
      ````sh
